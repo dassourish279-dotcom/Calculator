@@ -2,7 +2,7 @@
 import java.util.Scanner; //importing util
 class Code
 {
-    public static void main(String[]args)
+    public static void main(String[]args) //Main function
     {
         double a,b,s=0,t=0;
         Scanner sc = new Scanner(System.in); //Scanner object
