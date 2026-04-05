@@ -3,7 +3,7 @@
 <br>Description</br>
 <br>This is the first version </br>
 
-#Features
+<br>Features</br>
 <br>Input of only 2 nums</br>
 <br>Performs:</br>
 <br>Addtion</br>
