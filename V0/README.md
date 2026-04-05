@@ -1,6 +1,6 @@
-#V0
+<br>V0</br>
 
-#Description
+<br>Description</br>
 <br>This is the first version </br>
 
 #Features
@@ -10,3 +10,8 @@
 <br>Substraction</br>
 <br>Multiplication</br>
 <br>Division</br>
+
+<br>Limitations</br>
+<br>Run only once</br>
+<br>No user choice operations</br>
+<br>Only two inputs</br>
