@@ -1,2 +1,2 @@
 # Calculator
-I am building a proper calcualtor from absolute Scratch.
+This project shows my journey from building a proper advanced calculator from absolute basic.
