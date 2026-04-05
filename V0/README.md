@@ -12,9 +12,10 @@ This is the first version
 6. Division
 
 #Limitations
-1. Run only once
-2. No user choice operations
-3. Only two inputs
-4. Only basic arithmetics
-5. No BODMAS following
-6. No division by 0 error handling
+1. Console input only (No GUI)
+2. Run only once
+3. No user choice operations
+4. Only two inputs
+5. Only basic arithmetics
+6. No BODMAS following
+7. No division by 0 error handling
