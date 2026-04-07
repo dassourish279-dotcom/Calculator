@@ -20,3 +20,6 @@ This is the first version
 5. Only basic arithmetics
 6. No BODMAS following
 7. No division by 0 error handling
+8. Strict input format
+9. No history tracking
+10. No advanced operators 
