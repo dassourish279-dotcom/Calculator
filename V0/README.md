@@ -12,7 +12,7 @@ This is the first version
 5. Multiplication
 6. Division
 
-# Limitations
+# Limitations   
 1. Console input only (No GUI)
 2. Run only once
 3. No user choice operations
