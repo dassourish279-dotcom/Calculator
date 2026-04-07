@@ -1,10 +1,10 @@
-#V0
+# V0
 
-#Description
+# Description
 <br>
 This is the first version 
 
-#Features#
+# Features
 1. Performs:
 2. Input of only 2 nums</br> 
 3. Addtion
@@ -12,7 +12,7 @@ This is the first version
 5. Multiplication
 6. Division
 
-#Limitations
+# Limitations
 1. Console input only (No GUI)
 2. Run only once
 3. No user choice operations
