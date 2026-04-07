@@ -1,21 +1,31 @@
-# V1
+# Calculator (V1)
 
-# Description
-<br>This is the second version </br>
+## Description
 
-# Features
-Performs:
-2. Input of only 2 nums
-3. Addtion
-4. Substraction
-5. Multiplication
-6. Division
-7. The program run till user choice 
-8. Unlimited inputs 
-9. No crashing (div by 0 and char input) 
+A console-based calculator built in Java.
+V1 improves usability by allowing continuous operations and removing the two-number limitation from V0.
 
-# Issues solved from V0
-1. Running only once
-2. Limited inputs
-3. Crashing on div by 0, and invalid inputs
-4. User interaction
+
+## Features
+
+* Continuous execution (runs until user exits)
+* Unlimited inputs using result carry-forward
+* Basic arithmetic operations (+, -, *, /)
+* Basic crash handling (division by zero, invalid operator)
+* Improved user interaction
+
+
+# Improvements from V0
+
+* Removed single-use limitation (now runs continuously)
+* Removed two-number restriction
+* Added result carry-forward system
+* Improved input/output flow
+
+## Remaining Limitations
+
+* No support for full expressions (e.g., `2 + 3 * 4`)
+* No operator precedence (BODMAS not followed)
+* Limited to basic operations
+* No history tracking
+* Console-based (no UI)
