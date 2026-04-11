@@ -1,6 +1,6 @@
 /** V0 */
 import java.util.Scanner; //importing util
-class Code
+class Code_V0
 {
     public static void main(String[]args) //Main function
     {
