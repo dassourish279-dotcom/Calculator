@@ -12,6 +12,8 @@ class Code_V1
         outer: //Label break
         for(int i=2;i>1;i++) //Infinite loop for continuation
         {
+            System.out.print("Enter the next num: ");
+            n = sc.nextDouble(); //Num input
             System.out.print("Enter the operator(+,-,*,/): ");
             ch = sc.next().charAt(0); //Operator input
             switch(ch) //Operator choice
@@ -32,8 +34,6 @@ class Code_V1
                     System.out.println(); //Spacing
                     System.out.println("Wrong Operator input"); //Wrong operator input
             }
-            System.out.print("Enter the next num: ");
-            n = sc.nextDouble(); //Num input
             System.out.println(); //Spacing
             System.out.println("Result: "+ s);
             System.out.println(); //Spacing on output screen
