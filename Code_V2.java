@@ -27,6 +27,11 @@ class Code_V2
         s = a%b;
         return s;
     }
+    public double exp(double a, double b)
+    {
+        s = Math.pow(a,b);
+        return s;
+    }
     public static void main(String[]args)
     {
         double n,s=0.0;
@@ -39,10 +44,18 @@ class Code_V2
         outer:
         for(int i=2;i>1;i++)
         {
-            System.out.print("Enter the next num: ");
-            n = sc.nextDouble();
             System.out.print("Enter your choice (+,-,*,/*,%,^): ");
             ch = sc.next().charAt(0);
+            if(ch=='^')
+            {
+                System.out.print("Enter the power: ");
+                n = sc.nextDouble();
+            }
+            else
+            {
+                System.out.print("Enter the next num: ");
+                n = sc.nextDouble();
+            }
             switch(ch)
             {
                 case '+':
@@ -59,6 +72,9 @@ class Code_V2
                     break;
                 case '%':
                     s = ob.divr(s,n);
+                    break;
+                case '^':
+                    s = ob.exp(s,n);
                     break;
                 default:
                     System.out.println("Wrong Input");
