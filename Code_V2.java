@@ -1,6 +1,5 @@
 import java.util.Scanner;
-class Code_V2
-{
+class Code_V2{
     double s;
     public double sum(double a, double b){
         s = a+b;
